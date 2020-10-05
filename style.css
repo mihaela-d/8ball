@@ -7,7 +7,7 @@ body {
   background-image: url('bkgd2.png');
 }
 .page {
-  width: 50%;
+  width: 80%;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -18,21 +18,24 @@ body {
 }
 .answer {
   position:absolute;
-  width:40%;
-  text-align: center;
-  top:33%;
-  left:33%;
+  width:20%;
+  top:43%;
+  left:47%;
   margin-top:-60px;
-  margin-left:-67px;
-  font: 28px 'Open Sans', Helvetica, Arial, sans-serif;
+  margin-left:-65px;
+  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #f16059;
+  background: rgba(255, 255, 255, 0.91);
+  padding: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  background: rgba(255, 255, 255, 0.89);
-  border-radius: 40px;
-  padding: 30px;
+  border-radius: 50px;
 }
 
+.ball img{
+	width: 60%;
+	padding-left: 20%;
+}
 
 #questionButton {
   font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
@@ -65,3 +68,4 @@ footer p {
   text-transform: uppercase;
   font-size: 12px;
 }
+
